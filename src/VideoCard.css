@@ -1,0 +1,48 @@
+.VideosContainer{
+    width: 1300px;
+    height: 10000px;
+    left: 72px;
+    top: 15px;
+    position: relative;
+}
+.VideoCard{
+    width: 270px;
+    margin-bottom: 40px;
+    margin:10px
+}
+.VideoCardThumpnail{
+    width: 273px;
+    height: 174px;
+}
+.Videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background : #F9F9F9;
+}
+.VideoCardInfo{
+    display: flex;
+}
+
+.dots{
+position: relative;
+left: 195px;
+top: -18px;
+background: white(168, 168, 168);
+border-radius: 50px;
+}
+.dots:hover{
+    background: #b9b9b9;
+    cursor: pointer;
+
+}
+h4{
+    font-weight:600;
+}
+.VideoCardText{
+    margin-left: 15px;
+}
+.ChannelInfo{
+    margin-top: -15px;
+}

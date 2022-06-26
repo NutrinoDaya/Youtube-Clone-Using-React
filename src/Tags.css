@@ -1,0 +1,59 @@
+@import "https://unpkg.com/open-props";
+
+.Container{
+    border-bottom: 3px solid #F2F2F2;
+    border-top: 3px solid #F2F2F2;
+    width: 1150px;
+    height: 56px;
+    background: rgb(255, 255, 255);
+    font-family:  Arial, sans-serif;
+    left:72px;
+    font-size: 15px;
+    position:relative;
+    margin-bottom: 10px;
+
+}
+
+.TagName >*{
+    scroll-snap-align: start;
+
+}
+.TagName{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    overflow-x:scroll;
+    overscroll-behavior-inline: contain;
+    grid-auto-columns: 7%;
+    scroll-snap-type:inline mandatory;
+
+} 
+
+
+
+.Tag{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    border: 1px solid #F2F2F2 ;
+    border-radius:50px;
+    background: #f0eeee;
+    text-align: center;
+
+}
+.Tag:hover{
+    border: 3px solid #dadada ;
+    background: #dadada;
+    cursor: pointer;
+}
+
+.Tag{
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+user-select: none;
+    
+}
+div > a >p{
+    margin: 2px;
+}

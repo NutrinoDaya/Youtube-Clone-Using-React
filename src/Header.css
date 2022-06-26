@@ -1,0 +1,120 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    position: sticky;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    width: 1300px;
+    font-family : Roboto, Arial, sans-serif;
+
+}
+
+ /*  Header Left*/
+
+.Header_left{
+display: flex;
+align-items: center;
+}
+.Youtube_Logo{
+    height: 20px;
+    margin-left: 30px;
+    left: 40px !important;
+    top: 19px;
+}
+.Yt_Logo{
+    display: flex;
+align-items: center;
+margin-left: 30px;
+margin-right: 60px !important;
+}
+.MenuIcon{
+margin-left: 10px;
+margin-right: 30px !important;
+width: 100px;
+height: 20px;
+position:absolute;
+}
+.MenuIcon:hover{
+   cursor: pointer;
+    }
+
+ /*  Header Center*/
+
+.Header_Center{
+    display: flex;
+    align-items: center;
+    left: 40px;
+
+}
+.Header_Center > input {
+    width: 524px;
+    height: 34px;
+    border: 1px solid #CCCCCC;
+    font-size: 15px;
+    color:#444444;
+
+
+}
+.Header_Center > input:focus {
+    border: 1px solid #CCCCCC;
+
+}
+
+
+::placeholder { 
+    color: #888888;
+    font-family : Roboto, Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    
+  }
+.Search_Icon{
+    position: relative;
+    padding: 1px 6px;
+    border: 1px solid #CCCCCC;
+    background: #F8F8F8;
+    width: 50px !important;
+    height: 34px !important;
+    color: #000000;
+    font-weight: 10;
+}
+.Search_Icon:hover{
+    border: 1px solid rgb(220, 220, 220);
+    background:rgb(220, 220, 220);
+    color: black;
+}
+.Mic_Icon{
+    border: 7px solid #F8F8F8;
+    border-radius: 30px;
+    margin-left: 10px;
+    background: #F8F8F8;
+}
+.Mic_Icon:hover{
+    border: 7px solid rgb(220, 220, 220);
+    background:rgb(220, 220, 220);
+    color: black;
+}
+
+ /*  Header Right*/
+ 
+ .Header_Right{
+    display: flex;
+align-items:inherit;
+
+}
+.Header_Icon{
+    margin-right: 25px;
+}
+.User_Logo{
+
+    margin-right: 20px;
+    border-radius: 50px;
+    width: 12%;
+    height: 12%;
+}
