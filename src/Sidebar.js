@@ -1,7 +1,6 @@
 import React,{useState } from 'react'
 import './Slidebar.css'
-import {Sidebariconfunc1,Sidebariconfunc2,
-    Sidebariconfunc3,Sidebariconfunc4,Sidebariconfunc5} from './Sidebariconfunc'
+import {Sidebariconfunc} from './Sidebariconfunc'
 import HomeIcon from '@mui/icons-material/HomeOutlined';
 import HomeIconfilled from '@mui/icons-material/Home';
 import ExploreIcon from '@mui/icons-material/ExploreOutlined';
@@ -27,7 +26,7 @@ function Sidebar() {
     <div className='Slidebar'>
       
  <a className='SlideIcon' onClick={() => setIsActive1(!isActive1)}> 
-    <Sidebariconfunc1
+    <Sidebariconfunc
       ActiveIcon={HomeIconfilled}
       InactiveIcon={HomeIcon}
       Title='Home'
@@ -35,7 +34,7 @@ function Sidebar() {
       </a>
 
       <a onClick={() => setIsActive2(!isActive2)}> 
-    <Sidebariconfunc2
+    <Sidebariconfunc
       ActiveIcon={ExploreIconfilled}
       InactiveIcon={ExploreIcon}
       Title='Explore'
@@ -43,7 +42,7 @@ function Sidebar() {
       </a>
 
       <a onClick={() => setIsActive3(!isActive3)}> 
-    <Sidebariconfunc3
+    <Sidebariconfunc
       ActiveIcon={Shortsfilled}
       InactiveIcon={Shorts}
       Title='Shorts'
@@ -51,7 +50,7 @@ function Sidebar() {
       </a>
 
       <a onClick={() => setIsActive4(!isActive4)}> 
-    <Sidebariconfunc4
+    <Sidebariconfunc
       ActiveIcon={Subscriptionsfilled}
       InactiveIcon={Subscriptions}
       Title='Subscribtion'
@@ -59,7 +58,7 @@ function Sidebar() {
       </a>
 
       <a onClick={() => setIsActive5(!isActive5)}> 
-    <Sidebariconfunc5
+    <Sidebariconfunc
       ActiveIcon={VideoLibraryfilled}
       InactiveIcon={VideoLibrary}
       Title='Library'
